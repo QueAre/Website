@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Regular.eot');
+    src: url('../fonts/vazir/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Regular.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Regular.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Bold.eot');
+    src: url('../fonts/vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Bold.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Bold.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Black.eot');
+    src: url('../fonts/vazir/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Black.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Black.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Medium.eot');
+    src: url('../fonts/vazir/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Medium.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Medium.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Light.eot');
+    src: url('../fonts/vazir/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Light.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Light.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/vazir/Vazir-Thin.eot');
+    src: url('../fonts/vazir/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vazir/Vazir-Thin.woff2') format('woff2'),
+         url('../fonts/vazir/Vazir-Thin.woff') format('woff'),
+         url('../fonts/vazir/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/sahel/Sahel.eot');
+    src: url('../fonts/sahel/Sahel.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel.woff2') format('woff2'),
+         url('../fonts/sahel/Sahel.woff') format('woff'),
+         url('../fonts/sahel/Sahel.ttf') format('truetype');
+    font-weight: normal;
+  }
+        
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/sahel/Sahel-Bold.eot');
+    src: url('../fonts/sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel-Bold.woff2') format('woff2'),
+         url('../fonts/sahel/Sahel-Bold.woff') format('woff'),
+         url('../fonts/sahel/Sahel-Bold.ttf') format('truetype');
+font-weight: bold;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/sahel/Sahel-Light.eot');
+    src: url('../fonts/sahel/Sahel-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel-Light.woff2') format('woff2'),  
+         url('../fonts/sahel/Sahel-Light.woff') format('woff'),
+         url('../fonts/sahel/Sahel-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+    
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/sahel/Sahel-SemiBold.eot');
+    src: url('../fonts/sahel/Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel-SemiBold.woff2') format('woff2'),  
+         url('../fonts/sahel/Sahel-SemiBold.woff') format('woff'),
+         url('../fonts/sahel/Sahel-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/sahel/Sahel-Black.eot');
+    src: url('../fonts/sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel-Black.woff2') format('woff2'),  
+         url('../fonts/sahel/Sahel-Black.woff') format('woff'),
+         url('../fonts/sahel/Sahel-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.features-ul-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.features-ul {
+    text-align: right;
+    display: inline-block;
+    direction: rtl;
+}
+
+.download-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.download-desc {
+    font-size: 12px;
+    color: white;
+    margin: 8px 0 12px;
+    opacity: 0.8;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .download-text-container{
+        text-align: center;
+    }
+
+    .download-title{
+        margin: 24px 0 0;
+        padding: 0;
+    }
+
+    .download-desc{
+        padding: 0 24px;
+    }
+    .features {
+        display: block;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .main-wave {
+        visibility: hidden;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .main-section {
+        display: -webkit-box !important;
+        display: block !important;
+    }
+
+    .logo-image {
+        width: 42px;
+    }
+
+    .support-link {
+        display: block;
+        text-align: center;
+        z-index: 0;
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .features-ul-wrapper {
+        display: block !important;
+        justify-content: center;
+    }
+
+    .download-text-container{
+        text-align: right;
+    }
+
+    .features {
+        max-width: 767px;
+    }
+
+    .mockup {
+        display: block;
+        text-align: center;
+        width: 100% !important;
+        max-width: 400px;
+    }
+
+
+    .main-wave {
+        visibility: visible;
+    }
+
+    .main-section {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box !important;
+        display: flex !important;
+        justify-content: center;
+        position: fixed;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .support-link {
+        bottom: 0px;
+        display: block;
+        text-align: center;
+        position: absolute;
+        right: 40%;
+        z-index: 0;
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 14px;
+        max-width: 400px;
+    }
+}
+
+
+/* Normal desktop :1200px. */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+.main-wave {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Vazir', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    background: rgb(9, 9, 9);
+}
+
+.features-heading {
+    font-family: 'Sahel', sans-serif;
+}
+
+.wrapper {
+    /*background: -moz-radial-gradient(circle, rgba(72, 35, 181, 0.5) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(72, 35, 181, 0.5) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(72, 35, 181, 0.5) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4823b5", endColorstr="#000000", GradientType=1);*/
+    background-repeat: no-repeat;
+}
+
+
+a,
+.button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+a,
+button {
+    color: #1d2830;
+    outline: medium none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #1d2830;
+    display: block;
+    margin-block-start: 5px !important;
+    margin-block-end: 0 !important;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 16px;
+    color: #A4A6A7;
+    font-weight: 100;
+}
+
+
+ul {
+    list-style: none;
+    /*padding: 0;*/
+    padding: 0;
+    margin: 12px 0;
+    padding-inline-start: 0;
+}
+
+li {
+    line-height: 28px;
+    color: white;
+    opacity: 0.9;
+    direction: rtl;
+    margin: 0;
+    padding: 4px 0;
+
+}
+
+li:before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('../img/icon/feature.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    margin-right: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+}
