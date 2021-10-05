@@ -1,3 +1,4 @@
+from django.http import request
 from django.shortcuts import render
 
 
@@ -6,3 +7,6 @@ def index(request):
 
 def story(request):
     return render(request, '../templates/story.html')
+
+def team(request):
+    return render(request, '../templates/team.html')
