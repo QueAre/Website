@@ -236,7 +236,6 @@ font-weight: bold;
         display: -webkit-box !important;
         display: flex !important;
         justify-content: center;
-        position: fixed;
         flex-direction: row-reverse;
         align-items: center;
 
@@ -449,4 +448,89 @@ li {
         text-align: right;
         line-height: 2;
     }
+}
+
+.member-card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-card .profile-pic{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.member-card p{
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.member-card p span{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.social-links{
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-links img{
+    width: 32px;
+}
+
+@media (max-width: 1166px) {
+    #team-section{
+        display: block !important;
+    }
+
+    #team-main-wave{
+        visibility: hidden !important;
+    }
+
+    #team-footer{
+        bottom: inherit;
+    }
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul{
+    width: 500px;
+    height: 50px;
+    direction: rtl;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b59e2;
+    border-radius: 5px;
+}
+
+.nav ul li{
+    margin: 0 18px;
+    text-align: center;
+}
+
+.nav ul li a{
+    font-family: 'Sahel';
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
 }
