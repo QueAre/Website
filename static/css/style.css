@@ -188,6 +188,15 @@ font-weight: bold;
         font-size: 12px;
         width: 100%;
     }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 75px;
+    }
 }
 
 
@@ -234,7 +243,6 @@ font-weight: bold;
         display: block;
         text-align: center;
         position: absolute;
-        right: 40%;
         z-index: 0;
         padding: 12px;
         font-size: 12px;
@@ -243,6 +251,16 @@ font-weight: bold;
     li {
         font-size: 14px;
         max-width: 400px;
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 75px;
     }
 }
 
