@@ -383,3 +383,11 @@ li:before {
     display: flex;
     flex-direction: column;
 }
+
+.download-button{
+    background-color: #2b59e2;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
