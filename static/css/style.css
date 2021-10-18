@@ -515,7 +515,7 @@ li {
 }
 
 .nav ul{
-    width: 400px;
+    width: 50%;
     height: 50px;
     direction: rtl;
     list-style: none;
