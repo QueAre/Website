@@ -111,7 +111,13 @@ font-weight: bold;
     font-weight: 900;
 }
 
+@font-face {
+    font-family: iransans;
+    src: url('../fonts/iransans/iransans.ttf');
+}
+
 *{
+    font-family: iransans;
     padding: 0;
     margin: 0;
 }
@@ -292,7 +298,7 @@ html, body {
 }
 
 body {
-    font-family: 'Vazir', sans-serif;
+    font-family: 'iransans', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-align: right;
@@ -300,7 +306,7 @@ body {
 }
 
 .features-heading {
-    font-family: 'Sahel', sans-serif;
+    font-family: 'iransans', sans-serif;
 }
 
 .wrapper {
@@ -397,7 +403,7 @@ li {
 
 .story-titles{
     color: #fff;
-    font-family: 'Sahel';
+    font-family: 'iransans';
 }
 
 .story-main-section{
@@ -527,13 +533,14 @@ li {
 }
 
 .nav ul li a{
-    font-family: 'Sahel';
-    font-weight: bold;
-    font-size: 24px;
+    font-family: 'iransans';
+    /* font-weight: bold; */
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
 
 .nav ul li a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-weight: bold;
 }
